@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    color: #16014E;
+    border-bottom: 	#020241 solid 5px;
+    border-radius: 2px;
+    padding-top: 50px;
+}
+section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    border-bottom: #020241 solid 3px;
+}
+.cent{
+    width: 70%;
+}
+#Personal{
+    padding-top: 20px;
+    width: 30%;
+    float: left;
+    overflow-wrap: anywhere;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+#Academic{
+    padding-top: 20px;
+    padding-left: 15px;
+    display: inline-block;
+    width: 69%;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+section h2{
+    font-size: 22px;
+    letter-spacing: -0.4px;
+    word-spacing: 2px;
+    color: #16014E;
+    font-variant: small-caps;
+    font-weight: 700;
+}
+section h3{
+    font-size: 18px;
+    letter-spacing: -0.4px;
+    color: #16014E;
+    font-weight: 500;
+    font-variant: small-caps;
+}
+section ul{
+    padding-left:0px;
+    margin-left: 0px;
+}
+section ul h4{
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: #000000;
+    font-weight: 700;
+    font-variant: normal;
+}
+section ul li{
+    margin-left: 18px;
+    font-size: 18px;
+}
+footer{
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+
+/* Screen Size is between 0 and 576 inc */
+@media (max-width: 576px) { 
+    #head,#main,#date{
+        width: 90%;
+    }
+    section{
+        font-size: 10px;
+    }
+    #Personal{
+        font-size: 12px;
+    }
+    #Academic{
+        font-size: 14px;
+    }
+    section ul li{
+        font-size: 13px;
+    }
+    section h2{
+        font-size: 15px;
+    }
+    section h3{
+        font-size: 13px;
+    }
+    section ul h4{
+        font-size: 12px
+    }
+    footer{
+        font-size: 12px;
+    }
+ }
+/* Screen size form 577 to  768*/
+ @media (min-width: 577px) and (max-width: 768px) { 
+    #head,#main,#date{
+        width: 90%;
+    }
+    section{
+        font-size: 11px;
+    }
+    #Personal{
+        font-size: 12px;
+    }
+    #Academic{
+        font-size: 15px;
+    }
+    section ul li{
+        font-size: 14px;
+    }
+    section h2{
+        font-size: 16px;
+    }
+    section h3{
+        font-size: 14px;
+    }
+    section ul h4{
+        font-size: 13px
+    }
+    footer{
+        font-size: 13px;
+    }
+ }
+/* Screen size form 577 to  768*/
+ @media (min-width: 769px) and (max-width: 992px) { 
+    #head,#main,#date{
+        width: 90%;
+    }
+    section{
+        font-size: 12px;
+    }
+    #Personal{
+        font-size: 13px;
+    }
+    #Academic{
+        font-size: 16px;
+    }
+    section ul li{
+        font-size: 15px;
+    }
+    section h2{
+        font-size: 17px;
+    }
+    section h3{
+        font-size: 15px;
+    }
+    section ul h4{
+        font-size: 14px
+    }
+    footer{
+        font-size: 14px;
+    }
+ }
